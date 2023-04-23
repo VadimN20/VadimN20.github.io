@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/Titles/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/Titles/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/Titles/favicon-16x16.png">
+    <link rel="manifest" href="static/images/Titles/site.webmanifest">
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <div class="l-head">
+            <img src="static/images/Profile.jpg" alt="Me">
+            <div class="me-soc">
+                <a href="https://github.com/VadimN20" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://t.me/Vadya696" target="_blank">
+                    <ion-icon name="paper-plane"></ion-icon>
+                </a>
+                <a href="https://instagram.com/nifontov_v?igshid=YmMyMTA2M2Y="
+                    target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="r-head">
+            <div class="navigation">
+                <span class="logo active"><ion-icon class="logo active"
+                        name="laptop-outline"></ion-icon></span>
+                <div class="menu">
+                    <button onclick="dropMenu()" class="drop-btn"></button>
+                    <div id="dropMenu" class="dropmenu-content">
+                        <a href="#aboutMe">Обо мне</a>
+                        <a href="#Skills">Навыки</a>
+                        <a href="#Portfolio">Портфолио</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="fio">
+                <h1>Вадим Нифонтов</h1>
+                <h2>Web Developer & Front-end Junior</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-about">
+        <div class="about-me">
+            <a id="aboutMe"></a>
+            <h2>Обо мне</h2>
+        </div>
+        <div class="text-about">
+            <p>Занимался изучением бекэнд частью сайтов Python + Django, имею базовые знания в SQL(Писал курсовую работу по БД на C# с графическим интерфейсом, проект выложен на гите).</p>
+                <p>Сейчас углублённо занимаюсь изучением фронтенд разработки.</p>
+                <p>
+                    Уже успел познакомиться с Bootstrap и написать один проект 2-ух страничный сайт в качестве ознакомления с этой технологией. Имею базовые знания о препроцессорах.
+                    Так же изучил адаптивную вёрстку и использование анимаций.
+                    Сверстал пару небольших сайтов по макетам.
+                </p>
+                <p>Мне очень интересно веб-разработка и очень хочу развиваться в этом направлении.</p>
+        </div>
+    </div>
+
+
+    <div class="section-skills">
+        <div class="l-head">
+            <a id="Skills"></a>
+            <p>Хобби</p>
+            <div class="hobby">
+                <ion-icon name="code"></ion-icon>
+                <ion-icon name="barbell"></ion-icon>
+                <ion-icon name="car-sport"></ion-icon>
+            </div>
+            <div class="hobby-text">
+                <p>coding</p>
+                <p>sport</p>
+                <p>driving</p>
+            </div>
+        </div>
+
+        <div class="r-head">
+            <div class="name-skills">
+                <p>Мои навыки</p>
+            </div>
+
+            <div class="list-skills">
+                <p>CSS<br>
+                    <img src="static/images/Skills/CSS.png" alt="">
+                </p>
+                <p>HTML<br>
+                    <img src="static/images/Skills/HTML.png" alt="">
+                </p>
+                <p>JS<br>
+                    <img src="static/images/Skills/JS.png" alt="">
+                </p>
+                <p>+<br>Bootstrap</p>
+            </div>
+
+            <div class="more-list">
+                <p>Python<br>
+                    <img src="static/images/Skills/Python.png" alt="">
+                </p>
+                <p>+<br>Django</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="section-portfolio">
+        <a id="Portfolio"></a>
+        <h2>Портфолио</h2>
+        <div class="works">
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide1"
+                            src="static/images/portfolio/Bootstrap-project1.png" alt="">
+                        <img id="slide2"
+                            src="static/images/portfolio/Bootstrap-project2.png" alt="">
+                        <img id="slide3"
+                            src="static/images/portfolio/Bootstrap-project3.png" alt="">
+                    </div>
+                    <div class="nav-slider">
+                        <a href="#slide1"></a>
+                        <a href="#slide2"></a>
+                        <a href="#slide3"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide2.1" src="static/images/portfolio/Tour-project.png"
+                            alt="">
+                        <img id="slide2.2" src="static/images/portfolio/Tour-project2.png"
+                            alt="">
+                        <img id="slide2.3" src="static/images/portfolio/Tour-project3.png"
+                            alt="">
+                        <img id="slide2.4" src="static/images/portfolio/Tour-project4.png"
+                            alt="">
+                    </div>
+                    <div class="nav-slider">
+                        <a href="#slide2.1"></a>
+                        <a href="#slide2.2"></a>
+                        <a href="#slide2.3"></a>
+                        <a href="#slide2.4"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide3.1" src="static/images/portfolio/Log-page.png"
+                            alt="">
+                        <img id="slide3.2" src="static/images/portfolio/Log-page1.png"
+                            alt="">
+                    </div>
+                    <div class="nav-slider">
+                        <a href="#slide3.1"></a>
+                        <a href="#slide3.2"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img src="static/images/portfolio/Grid-training.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts/main.js"></script>
+    <script type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+<div class="r-about-me">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        culpa officia ab architecto ullam quas amet, suscipit incidunt eaque
+        temporibus, ex modi, deleniti necessitatibus similique. Officia
+        consequuntur aut, doloribus pariatur autem ex possimus similique
+        accusantium id at quae debitis asperiores aliquam consectetur ad
+        facilis. Quaerat quidem placeat earum sunt id.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam
+        quam aliquid iure nostrum hic possimus nam, sunt dicta? Cum, in
+        mollitia. Sint nulla iste distinctio accusantium magni molestias,
+        tempora porro perspiciatis accusamus culpa perferendis nihil
+        voluptatem officia in pariatur sequi! Quo atque maiores, libero ea
+        mollitia sunt minus esse?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est expedita
+        porro dolores ipsum blanditiis fugiat illo nostrum ab aperiam
+        perferendis aliquam unde, voluptatibus eaque cupiditate earum
+        voluptatem doloremque cumque, labore, accusamus harum magni natus
+        animi et? Quas, sequi. Voluptatem neque blanditiis architecto sunt
+        dolor labore a, repudiandae incidunt explicabo voluptatibus quam,
+        exercitationem obcaecati deserunt iste aliquam ducimus eum dolorum
+        eos?</p>
+</div>
+<div class="r-skills">
+</div>
+<div class="r-portfolio">
+</div>
+<div class="l-skills">
+</div>
+<div class="l-portfolio">
+</div> -->
